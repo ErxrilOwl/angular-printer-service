@@ -1,0 +1,74 @@
+<div class="container" style="margin-top: 5vh;">
+    <div class="columns">
+        <div class="column">
+            <button class="button is-primary" (click)="onPrint()">Print Test Data</button>
+        </div>
+        <div class="column">
+            <button class="button is-primary" (click)="getPrinter('test_printer')">Get Printer</button>
+        </div>
+        <div class="column">
+            <button class="button is-primary" (click)="getPrinters()">Get Printers</button>
+        </div>
+        <div class="column">
+            <button class="button is-primary" (click)="onPrintHTML()">Print HTML</button>
+        </div>
+    </div>
+    <div class="columns">
+        <div class="column">
+            <div style="width: 40mm; border: 1px solid black;">
+                <div style="width: 100%; text-align: center;">
+                    <h6 style="margin: 2mm 0mm">*&nbsp;SHOPPING MALL&nbsp;*</h6>
+                </div>
+                <table>
+                    <tr style="padding: 0; margin: 0; margin-bottom: 1.5mm;">
+                        <td valign="top" style="width: 20mm; font-weight: bold; font-size: 2mm;">&nbsp;</td>
+                        <td valign="top" style="width: 20mm; ">
+                            <div style="width: 100%; text-align: right; font-size: 2mm;">
+                                <span>Date: 07/27/2018</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr style="padding: 0; margin: 0; margin-bottom: 1mm;">
+                        <td valign="top" style="width: 20mm;">
+                            <div style="width: 100%; text-align: center; font-size: 2mm;">
+                                <span>Items</span>
+                            </div>
+                        </td>
+                        <td valign="top" style="width: 20mm; ">
+                            <div style="width: 100%; text-align: center; font-size: 2mm;">
+                                <span>Price</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr style="padding: 0; margin: 0">
+                        <td valign="top" style="width: 20mm; font-weight: bold; font-size: 2mm;">Item 1</td>
+                        <td valign="top" style="width: 20mm; ">
+                            <div style="width: 100%; text-align: right; font-size: 2mm;">
+                                <span>Php 1000.00</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr style="padding: 0; margin: 0">
+                        <td valign="top" style="width: 20mm; font-weight: bold; font-size: 2mm;">Item 2</td>
+                        <td valign="top" style="width: 20mm; ">
+                            <div style="width: 100%; text-align: right; font-size: 2mm;">
+                                <span>Php 1000.00</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr style="padding: 0; margin: 0">
+                        <td valign="top" style="width: 20mm; font-weight: bold; font-size: 2mm;">Total</td>
+                        <td valign="top" style="width: 20mm; ">
+                            <div style="width: 100%; text-align: right; font-weight: bold; font-size: 2mm;">
+                                <span>Php 2000.00</span>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <div style="width: 100%; text-align: center;">
+                    <p style="font-size: 2mm;">*This invoice is valid for 1 day*</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
